@@ -1,0 +1,25 @@
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: slateblue;
+    padding: 10px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+p a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}

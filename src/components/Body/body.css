@@ -1,0 +1,136 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.clima{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: honeydew;
+    background-color: #363636;
+}
+
+.titulo-card, .corpo-card, .search-city{
+    background-color: #1C1C1C;
+    margin: 5px;
+    padding-left: 30px;
+}
+
+svg{
+    color: slateblue;
+    margin-right: 10px;
+}
+
+.titulo-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titulo-card .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-card .city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-card .temp h1{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.corpo-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dados-card{
+    margin-top: 30px;
+}
+
+.dados-card p{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.image-card{
+    margin-top: 30px;
+}
+
+
+.image-card img{
+    width: 300px;
+    height: 200px;
+    margin-top: -30px;
+}
+
+.clima .search-city{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-city input {
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.search-city button{
+    padding: 5px;
+    border: none;
+    background-color: steelblue;
+    color: white;
+}
+
+.load{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    .clima{
+        width: 50%;
+    }
+
+    .image-card img{
+        display: none;
+    }
+
+    svg{
+        font-size: 4em;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    
+    .clima{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .clima{
+        width: 70%;
+    }
+}
+
+
