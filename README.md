@@ -10,17 +10,17 @@ Na estilização usei o misto entre styled-components e css puro, além de aplic
   Páginas principais
 <p/>
 <p align="center">
-  <img src="src/assets/Clima_app-1.pgn"/>
+  <img src="src/assets/Clima_app-1.png"/>
 <p/>
 
 <p align="center">
-  <img src="src/assets/Clima_app-2.pgn"/>
+  <img src="src/assets/Clima_app-2.png"/>
 <p/>
 <p>
   Resposividade
 <p/>
 <p align="center">
-  <img src="src/assets/Clima_app-3.pgn"/>
+  <img src="src/assets/Clima_app-3.png"/>
 <p/>
 
 
