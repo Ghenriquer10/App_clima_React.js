@@ -83,6 +83,16 @@ svg{
     justify-content: center;
 }
 
+.search-city button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-city button svg{
+    color: white;
+    margin-left: 10px;
+}
+
 .search-city input {
     border: none;
     padding: 5px;
@@ -103,21 +113,33 @@ svg{
     justify-content: center;
 }
 
-
 @media screen and (max-width: 700px) {
     
     .clima{
         width: 50%;
+        min-width: 300px;
     }
 
     .image-card img{
         display: none;
     }
 
+    .city h1{
+        font-size: 1.5em;
+    }
+
     svg{
         font-size: 4em;
     }
 
+    .search-city{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-city input{
+        width: 100px;
+    }
 }
 @media screen and (max-width: 900px) {
     

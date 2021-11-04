@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
-import {FaCloudSun, FaTemperatureHigh, FaWind, FaTint, FaCloudSunRain, FaTachometerAlt} from 'react-icons/fa'
+import {FaSearch ,FaCloudSun, FaTemperatureHigh, FaWind, FaTint, FaCloudSunRain, FaTachometerAlt} from 'react-icons/fa'
 import './body.css'
-import clima from '../../assets/clima.jpg'
 import api from "../../services/api";
 import { toast } from 'react-toastify'
 
@@ -93,7 +92,7 @@ export default function Body(){
                 </div>
                 <div className="search-city">
                     <input type="text" placeholder="Digite a cidade" value={cidade} onChange={e => setCidade(e.target.value)}/>
-                    <button type="submit" onClick={ e => handleCity(cidade)}>Pesquisar</button>
+                    <button type="submit" onClick={ e => handleCity(cidade)}><FaSearch size={17}/></button>
                 </div>
             </div>
         </div>  
