@@ -6,7 +6,7 @@ export default function Footer(){
     return(
         <div className="footer">
             <p>
-                <a href="https://wa.me/5561982219947">
+                <a href="https://wa.me/5561995776284">
                     <FaWhatsapp size={20} color="#FFF"/> Gustavo Henrique Nogueira
                 </a>
             </p>
